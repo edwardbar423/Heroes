@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4909F1881D611D4E006A973A /* Sunroom.c in Sources */ = {isa = PBXBuildFile; fileRef = 4909F1871D611D4E006A973A /* Sunroom.c */; };
+		4909F18D1D61268A006A973A /* Bathroom.c in Sources */ = {isa = PBXBuildFile; fileRef = 4909F18B1D61268A006A973A /* Bathroom.c */; };
+		4909F1901D612CA0006A973A /* Office.c in Sources */ = {isa = PBXBuildFile; fileRef = 4909F18E1D612CA0006A973A /* Office.c */; };
 		49DC08041D5AABB400565D98 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 49DC08031D5AABB400565D98 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4909F1871D611D4E006A973A /* Sunroom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Sunroom.c; sourceTree = "<group>"; };
+		4909F1891D611EA0006A973A /* Sunroom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sunroom.h; sourceTree = "<group>"; };
+		4909F18A1D6124D8006A973A /* Actions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Actions.h; sourceTree = "<group>"; };
+		4909F18B1D61268A006A973A /* Bathroom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Bathroom.c; sourceTree = "<group>"; };
+		4909F18C1D61268A006A973A /* Bathroom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bathroom.h; sourceTree = "<group>"; };
+		4909F18E1D612CA0006A973A /* Office.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Office.c; sourceTree = "<group>"; };
+		4909F18F1D612CA0006A973A /* Office.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Office.h; sourceTree = "<group>"; };
 		49DC08001D5AABB400565D98 /* Heroes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Heroes; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DC08031D5AABB400565D98 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				49DC08031D5AABB400565D98 /* main.c */,
+				4909F1891D611EA0006A973A /* Sunroom.h */,
+				4909F1871D611D4E006A973A /* Sunroom.c */,
+				4909F18A1D6124D8006A973A /* Actions.h */,
+				4909F18C1D61268A006A973A /* Bathroom.h */,
+				4909F18B1D61268A006A973A /* Bathroom.c */,
+				4909F18E1D612CA0006A973A /* Office.c */,
+				4909F18F1D612CA0006A973A /* Office.h */,
 			);
 			path = Heroes;
 			sourceTree = "<group>";
@@ -119,7 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4909F18D1D61268A006A973A /* Bathroom.c in Sources */,
+				4909F1901D612CA0006A973A /* Office.c in Sources */,
 				49DC08041D5AABB400565D98 /* main.c in Sources */,
+				4909F1881D611D4E006A973A /* Sunroom.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +266,7 @@
 				49DC08091D5AABB400565D98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
